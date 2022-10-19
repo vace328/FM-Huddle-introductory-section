@@ -1,0 +1,31 @@
+body {
+    font-family: $ffamily_primary;
+    color: $neutral_lvl_1;
+}
+h1, h2 {
+    font-family: $ffamily_accent;
+}
+
+h2 {
+    font-size: 49px;
+    line-height: 71px;
+    text-align: center;
+    letter-spacing: -0.018em;
+    font-weight: 600;
+}
+p {
+    font-family: $ffamily_primary;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 48px;
+    text-align: center;
+}
+
+button {
+    font-size: 24px;
+    font-family: $ffamily_accent;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+}

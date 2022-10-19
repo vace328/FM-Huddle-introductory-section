@@ -1,0 +1,12 @@
+.header {
+    position: absolute;
+    z-index: 10;
+    top: 64px;
+    left: 60px;
+    .logo {
+        width: 258px;
+        img {
+            width: 100%;
+        }
+    }
+}
