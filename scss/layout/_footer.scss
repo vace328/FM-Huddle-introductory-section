@@ -35,3 +35,21 @@ svg #insta-path9287 {
 .soc-icon:hover > svg #insta-path9287 {
     fill: $hover;
 }
+
+@media only screen and (min-width: 1200px) {
+    footer {
+        padding-bottom: 0px;
+    }
+   
+    .icon-container {
+        text-align: right;
+    }
+    .soc-icon {        
+        width: 40px;
+        height: 40px;
+    }
+    .soc-icon:nth-of-type(2) {
+        margin-left: 12px;
+        margin-right: 12px;
+    }
+}
