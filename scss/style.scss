@@ -13,9 +13,6 @@
 // @import "components/icons";
 // @import "components/buttons";
 
-/*----------  libs
-------------------------------------------------------------------------------*/
-
 /*----------  layout
 ------------------------------------------------------------------------------*/
 @import "layout/header"; 
@@ -31,13 +28,6 @@ body {
     min-height: 100vh;    
     background-color: $primary_lvl_1;
 }
-// main {
-    // background-image: url("../images/bg-mobile.svg");
-    // background-repeat: no-repeat;
-    // background-size: cover;
-    // background-position: center center;
-// }
-
 .sr-only {
     position: absolute;
     width: 1px;
@@ -48,9 +38,7 @@ body {
     clip: rect(0,0,0,0,0);
     border: 0;
 }
-
 .hero {
-    // padding: 254px 78px 0 80px;
     padding: 0;
     display: flex;
     justify-content: space-around;
@@ -63,10 +51,8 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
-    width: 100%;
-    // padding-bottom: 30px;
+    width: 100%;    
 }
-
 .hero-img-inner-wrapper, 
 .hero-text-wrapper {
     max-width: 604px;
@@ -76,11 +62,9 @@ body {
     padding-bottom: 66px;
     margin: 0 auto;
 }
-
 .hero-img-inner-wrapper img {
     width: 100%;
 }
-
 .hero-text-wrapper {
     padding-top: 52px;
     text-align: center;
@@ -128,7 +112,6 @@ button:active {
         padding-right: 10px;
     }
 }
-
 @media only screen and (min-width: 1200px) {
     body {
         background-image: url("../images/bg-desktop.svg");
@@ -173,8 +156,7 @@ button:active {
         height: 56px;
     }
 }
-
-@media only screen and (min-width: 1200px) and (min-height: 800px) {
+@media only screen and (min-width: 1200px) and (min-height: 801px) {
     body {
         background-size: cover;
     }
@@ -184,5 +166,13 @@ button:active {
     }
     .hero-text-wrapper {
         padding-top: 120px;
+    }
+}
+@media only screen and (min-width: 1500px) {
+    .hero {
+        justify-content: center;
+    }
+    .hero-img-wrapper {
+        max-width: 720px;
     }
 }

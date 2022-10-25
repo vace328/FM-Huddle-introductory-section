@@ -2,7 +2,7 @@
     position: absolute;
     z-index: 10;
     top: 64px;
-    left: 60px;
+    left: 66px;
     .logo {
         width: 258px;
         img {
@@ -10,7 +10,6 @@
         }
     }
 }
-
 @media only screen and (max-width: 650px) {
     .header {
         top: 30px;
@@ -20,7 +19,6 @@
         }
     }
 }
-
 @media only screen and (min-width: 1200px) {
     .header {
         top: 52px;
